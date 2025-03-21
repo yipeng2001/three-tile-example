@@ -80,7 +80,7 @@ export const mapTilerDemTestSource = new tt.plugin.MapTilerSource({
 });
 
 // 天地图
-const TDTKEY =
+export const TDTKEY =
 	//"8e1ef0f654f67d2252b2fbe39517665c";
 	// "4fa16fcfc196d1a6c435753b0850a336";
 	"56b81006f361f6406d0e940d2f89a39c";

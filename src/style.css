@@ -6,7 +6,7 @@
 
 	color-scheme: light dark;
 	color: rgba(255, 255, 255, 0.87);
-	background-color: #242424;
+	background-color: #fff;
 
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -83,15 +83,15 @@ button:focus-visible {
 #left-side {
 	position: relative;
 	width: 300px;
-	border-right: 1px solid #333;
+	border-right: 1px solid #ffffff;
 	display: flex;
 	flex-direction: column;
-	box-shadow: 2px 0px 5px black;
+	box-shadow: 2px 0px 5px white;
 }
 .head {
-	background-color: black;
-	border-bottom: 1px solid #333;
-	border-right: 5px solid #555;
+	background-color: white;
+	/* border-bottom: 1px solid #333;
+	border-right: 5px solid #555; */
 	text-align: center;
 	display: flex;
 	align-items: center;
