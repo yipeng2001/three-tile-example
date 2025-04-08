@@ -42,7 +42,7 @@ gui.add(vm, "noneDem").name("无地形");
 gui.add(vm, "mapboxDem").name("MapBox地形瓦片(MaxLevel=15)");
 gui.add(vm, "mapTilerDem").name("MapTiler地形瓦片(MaxLevel=12)");
 gui.add(vm, "zkxtDem").name("中科星图地形瓦片(MaxLevel=10)");
-
+// 地形拉伸倍数
 gui.add(map.scale, "z", 1, 3, 0.1).name("地形拉伸倍数").listen();
 gui.add(map.position, "y", -3, 3, 0.01).name("地图模型高度偏移").listen();
 gui.add(map, "autoPosition").name("自动调整地图模型高度");
